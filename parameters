@@ -1,0 +1,19 @@
+### Input parameters for model $modelfoo_{name_modelers}$ ###
+
+
+## Input parameters provided by Test Center ##
+# Testing time window 1 day #
+forecastStartDate = 2021/07/01 00:00:00
+forecastEndDate = 2021/07/01 23:59:59
+## End input parameters ##
+
+## Path to input data and output directory ##
+PathCatalogData = ../input/ISIDE_catalog_selected_PyCSEP
+PathOutputData = ../daily_forecast
+## End Input parameters ##
+
+## Path to input files accessed for internal use (found within the model's source folder) ##
+input_file1 = ../source/input_1
+input_file2 = ../source/input_2
+
+### End information ###
