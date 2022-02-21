@@ -1,0 +1,2 @@
+all: 
+	Rscript -e "pp <- setdiff(c('sf', 'gnorm', 'mnormt', 'rgeos', 'raster', 'MASS', 'mvtnorm', 'matrixStats', 'metR', 'data.table', 'dplyr', 'INLA', 'foreach', 'Matrix', 'inlabru', 'sp'), rownames(installed.packages())); if(length(pp) == 0){print('All packages installed')}else{install.packages(pp)}"
